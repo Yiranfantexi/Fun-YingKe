@@ -1,0 +1,26 @@
+//
+//  yingke-Prefix.pch
+//  yingke
+//
+//  Created by yanzhen on 16/12/7.
+//  Copyright © 2016年 v2tech. All rights reserved.
+//
+
+#ifndef yingke_Prefix_pch
+#define yingke_Prefix_pch
+//解决混编导入头文件的问题
+#ifdef __OBJC__
+
+#import "NSObject+General.h"
+#import "YZShareInstance.h"
+#import "YZGeneralEnum.h"
+#import "GlobalMacro.h"
+#import "GlobalManager.h"
+
+#import "MJExtension.h"
+
+#import <objc/runtime.h>
+
+#endif
+
+#endif /* yingke_Prefix_pch */
